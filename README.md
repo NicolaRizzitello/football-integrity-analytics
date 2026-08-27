@@ -347,14 +347,6 @@ Users of this project should comply with the applicable StatsBomb Open Data term
 
 ---
 
-## ⚠️ Disclaimer
-
-This is an independent portfolio and educational project.
-
-The integrity-related analytics presented by the application are exploratory statistical indicators. They do not establish or imply that a player, team, match or competition has been involved in manipulation, misconduct or other improper activity.
-
----
-
 ## 👤 Author
 
 **Nicola Rizzitello**
