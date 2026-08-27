@@ -314,7 +314,7 @@ shiny::runApp("shiny")
 
 ## 📸 Dashboard
 
-> Dashboard screenshots will be added here.
+![Football Integrity Analytics Dashboard](docs/images/dashboard-overview.jpg)
 
 ---
 
