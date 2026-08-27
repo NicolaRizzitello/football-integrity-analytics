@@ -1,0 +1,407 @@
+body {
+  background: #F5F7FA;
+  color: #1D2733;
+}
+
+/* HEADER */
+
+.navbar {
+  background: linear-gradient(100deg, #0B2E4F 0%, #123F6A 100%) !important;
+  border: none !important;
+  min-height: 78px;
+  box-shadow: 0 3px 14px rgba(11, 46, 79, 0.18);
+}
+
+.navbar-brand {
+  color: #FFFFFF !important;
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.12;
+}
+
+.app-title-main {
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  font-weight: 760;
+  letter-spacing: 0.01em;
+}
+
+.app-title-sub {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.72rem;
+  margin-top: 4px;
+}
+
+/* SIDEBAR */
+
+.bslib-sidebar-layout > .sidebar {
+  background: #FFFFFF !important;
+  border-right: 1px solid #E4E9EF !important;
+}
+
+.sidebar-logo {
+  text-align: center;
+  padding: 6px 0 26px 0;
+}
+
+.main-logo {
+  width: 150px;
+  height: auto;
+  max-width: 88%;
+}
+
+.sidebar-intro {
+  margin-bottom: 24px;
+}
+
+.sidebar-intro h5 {
+  color: #0B2E4F;
+  font-size: 1.02rem;
+  font-weight: 760;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.sidebar-intro p {
+  color: #6B7785;
+  font-size: 0.86rem;
+  line-height: 1.48;
+}
+
+.methodology-note {
+  margin-top: 17px;
+  padding: 14px;
+  border-radius: 10px;
+  background: #EEF5FB;
+  border-left: 4px solid #1E5B8C;
+}
+
+.methodology-note b {
+  color: #0B2E4F;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.methodology-note p {
+  margin: 6px 0 0;
+  color: #5E6D7C;
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.portfolio-note {
+  margin-top: 34px;
+  padding-top: 14px;
+  border-top: 1px solid #E6EAF0;
+  display: grid;
+  grid-template-columns: 22px 1fr;
+  gap: 2px 8px;
+  align-items: center;
+  color: #5E6D7C;
+}
+
+.portfolio-note svg {
+  grid-row: 1 / span 2;
+  width: 20px;
+  height: 20px;
+  color: #1E5B8C;
+}
+
+.portfolio-note span {
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+
+.portfolio-note small {
+  font-size: 0.72rem;
+  color: #8A96A3;
+}
+
+/* MATCH HEADER */
+
+.match-header {
+  padding: 8px 3px 20px;
+}
+
+.match-kicker {
+  color: #73808D;
+  font-size: 0.7rem;
+  font-weight: 780;
+  letter-spacing: 0.09em;
+  margin-bottom: 5px;
+}
+
+.match-header h2 {
+  color: #0B2E4F;
+  font-size: 1.86rem;
+  font-weight: 780;
+  margin-bottom: 4px;
+}
+
+.home-name {
+  color: #E45756;
+}
+
+.away-name {
+  color: #1597A5;
+}
+
+.score {
+  color: #0B2E4F;
+}
+
+/* CARDS */
+
+.card {
+  background: #FFFFFF;
+  border: 1px solid #E7EBF0 !important;
+  border-radius: 13px !important;
+  box-shadow:
+    0 2px 5px rgba(11, 46, 79, 0.025),
+    0 8px 22px rgba(11, 46, 79, 0.055) !important;
+  overflow: hidden;
+}
+
+.card-header {
+  background: #FFFFFF !important;
+  color: #0B2E4F;
+  border-bottom: 1px solid #EDF0F3 !important;
+  padding: 14px 16px;
+  font-weight: 740;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+/* KPI */
+
+.bslib-value-box {
+  background: #FFFFFF !important;
+  color: #1D2733 !important;
+  border: 1px solid #E7EBF0 !important;
+  border-radius: 12px !important;
+  box-shadow:
+    0 2px 5px rgba(11, 46, 79, 0.025),
+    0 6px 18px rgba(11, 46, 79, 0.05) !important;
+  min-height: 112px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bslib-value-box::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  background: #1E5B8C;
+}
+
+.kpi-home::after { background: #E45756; }
+.kpi-away::after { background: #1597A5; }
+.kpi-purple::after { background: #5B3E96; }
+.kpi-orange::after { background: #F26A2E; }
+.kpi-green::after { background: #4E8B3D; }
+
+.bslib-value-box .value-box-title {
+  color: #6B7785 !important;
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.045em;
+}
+
+.bslib-value-box .value-box-value {
+  color: #0B2E4F !important;
+  font-size: 1.75rem !important;
+  line-height: 1.05;
+  font-weight: 790 !important;
+}
+
+.bslib-value-box svg {
+  width: 40px !important;
+  height: 40px !important;
+  opacity: 0.78;
+  color: #1E5B8C !important;
+}
+
+/* TABS */
+
+.nav-tabs {
+  border-bottom: 1px solid #EDF0F3 !important;
+  gap: 6px;
+  padding: 5px 10px 0;
+}
+
+.nav-tabs .nav-link {
+  color: #667483;
+  font-weight: 660;
+  border: 0 !important;
+  border-radius: 8px 8px 0 0 !important;
+  padding: 12px 18px;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #0B2E4F;
+  background: #F3F7FA;
+}
+
+.nav-tabs .nav-link.active {
+  color: #0B2E4F !important;
+  background: #EDF4F8 !important;
+  font-weight: 780;
+  box-shadow: inset 0 -3px 0 #1E5B8C;
+}
+
+/* TABLES */
+
+.dataTables_wrapper {
+  font-size: 0.84rem;
+  color: #1D2733;
+}
+
+table.dataTable {
+  border-collapse: collapse !important;
+}
+
+table.dataTable thead th {
+  background: #F7F9FB;
+  color: #536171;
+  font-size: 0.72rem;
+  font-weight: 780;
+  text-transform: uppercase;
+  letter-spacing: 0.035em;
+  border-bottom: 1px solid #E4E9EE !important;
+}
+
+table.dataTable tbody td {
+  border-bottom: 1px solid #EFF2F5 !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+table.dataTable tbody tr:hover {
+  background: #F6FAFC !important;
+}
+
+/* INPUTS */
+
+.form-label {
+  color: #536171;
+  font-weight: 690;
+  font-size: 0.82rem;
+}
+
+.selectize-input {
+  border-radius: 8px !important;
+  border-color: #DDE3E9 !important;
+  box-shadow: none !important;
+  min-height: 42px;
+}
+
+.selectize-input.focus {
+  border-color: #1E5B8C !important;
+  box-shadow: 0 0 0 0.15rem rgba(30, 91, 140, 0.12) !important;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .app-title-sub {
+    display: none;
+  }
+
+  .match-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .main-logo {
+    width: 118px;
+  }
+}
+
+
+/* =========================================================
+   PAGE FLOW / SCROLLING
+   The dashboard is deliberately content-driven rather than
+   forced into the viewport height. This prevents KPI cards
+   and charts from overlapping and restores normal scrolling.
+   ========================================================= */
+
+html,
+body {
+  height: auto !important;
+  min-height: 100% !important;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+}
+
+.bslib-page-sidebar {
+  height: auto !important;
+  min-height: 100vh !important;
+  overflow: visible !important;
+}
+
+.bslib-page-sidebar > .main,
+.bslib-page-sidebar .main {
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+}
+
+.tab-content,
+.tab-pane,
+.card-body {
+  overflow: visible;
+}
+
+.kpi-row {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.section-row {
+  display: block;
+  margin-top: 6px;
+  margin-bottom: 22px;
+}
+
+/* Give KPI cards their natural readable height. */
+.kpi-row .bslib-value-box {
+  min-height: 124px !important;
+  height: 124px !important;
+}
+
+/* Prevent the value text and icons from being clipped. */
+.bslib-value-box .value-box-area {
+  overflow: visible !important;
+}
+
+.bslib-value-box .value-box-grid {
+  min-height: 100%;
+}
+
+/* Keep chart/table sections comfortably separated. */
+.section-row .card {
+  min-height: 0;
+  margin-bottom: 0;
+}
+
+/* Sidebar stays available while the user scrolls on wide screens. */
+@media (min-width: 992px) {
+  .bslib-page-sidebar > .sidebar,
+  .bslib-page-sidebar .sidebar {
+    align-self: flex-start;
+  }
+}
+
+.portfolio-subtitle {
+  font-size: 0.72rem;
+  color: #8A96A3;
+}

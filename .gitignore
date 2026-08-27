@@ -1,0 +1,41 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Airflow
+airflow/logs/
+airflow/plugins/__pycache__/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Database / Docker local data
+*.sqlite
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Positron / VS Code local settings
+.vscode/
+.positron/
+
+# Quarto generated files
+.quarto/
+*_files/
+_site/
+
+# Temporary files
+*.tmp
+*.log
